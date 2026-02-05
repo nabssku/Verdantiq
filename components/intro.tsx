@@ -4,13 +4,12 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Kaushan_Script, Work_Sans, Inter } from 'next/font/google';
+import { Work_Sans, Inter } from 'next/font/google';
 import { ArrowRight, Leaf, Sun, Globe, Sparkles, MoveRight } from 'lucide-react';
 import { useSectionInView } from "@/lib/hooks";
 
 
 // Konfigurasi Font Google (Next.js Optimization)
-const kaushan = Kaushan_Script({ weight: '400', subsets: ['latin'] });
 const workSans = Work_Sans({ subsets: ['latin'] });
 const inter = Inter({ subsets: ['latin'] });
 
