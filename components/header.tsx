@@ -24,7 +24,7 @@ export default function Header() {
       >
         <div className="flex items-center gap-2">
           <Image 
-            src="/verdant.png" 
+            src="/logo.png" 
             alt="Verdantiq" 
             width={80} 
             height={40}
